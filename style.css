@@ -1,0 +1,73 @@
+/*=== reset===*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+/*====corpo====*/
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    background-color: #f6fdfd;
+    padding: 2rem ;
+}
+
+.section {
+    padding: 0.6rem 0;
+    max-width: 70%;
+}
+
+main {
+    margin-top: 0.5rem;
+}
+
+h1{
+    color: rgba(20, 44, 63, 0.863);
+    font: 700 2rem, 'Noto Sans JP', sans-serif;
+}
+
+h2{
+    color: rgb(139, 139, 179);
+    font: 400 1rem, 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+    color:rgba(109, 143, 170, 0.863);
+    font: 400 1rem, 'Noto Sans JP', sans-serif;    
+}
+
+h5{
+    line-height: 1rem;
+    font: 400 1rem, 'Noto Sans JP', sans-serif;
+}
+
+p{
+    color:rgb(80, 79, 79);
+    text-align: justify;
+    font: 400  'Noto Sans JP', sans-serif;
+}
+
+
+#header {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem 0;
+    justify-content: space-between;
+}
+
+.divider{
+    height: 1px;
+    background-color: cornflowerblue;
+    max-width: 70%;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0.5rem 0;
+}
